@@ -19,6 +19,18 @@
 		
 
 	<!-- Javascipt and JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+  		$("#flip").click(function(){
+   		$("#panel").slideToggle("slow");
+ 	 });
+	});
+	</script>
+
 
 <title>Skills</title>
 <!-- Sidebar --> 
@@ -59,7 +71,8 @@
            class="list-group-item list-group-item-action py-2 ripple">
             <span>CONTACT</span></a>
 	
-	<a href="#"
+	
+	<a href="VRiddle_Resume.pdf" target="_blank"
            class="list-group-item list-group-item-action py-2 ripple">
 	   <span>DOWNLOAD MY RESUME</span></a>
      
@@ -69,6 +82,10 @@
   <!-- Sidebar -->
 </head>
 <body>
+<div id="flip">SKILLS</div>
+  <div id="panel">
 
+<p class="skill"><img src= "images/skillsimage.png" alt="infographic" width="400" height="800"> </p>
+</div>
 </body>
 </html>

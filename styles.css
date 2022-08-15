@@ -77,12 +77,6 @@ img {
 	margin-left: 165%;
 }
 
-h4 { 
-	font-size: 30px; 
-	text-align: center;
-	font-family: 'Abril Fatface', cursive;
-	margin-right: 17%;
-}
 
 
 form {
@@ -163,5 +157,9 @@ td, th {
 
 table {
 margin-left: 20%;
+}
+
+p.skill {
+margin-right: 73%;
 }
 
